@@ -98,11 +98,4 @@ select * from tabelaAlunos;
 
 ## Links
 
-- Mais em: 
-  - <http://www.bosontreinamentos.com.br/postgresql-banco-dados/como-listar-bancos-de-dados-e-tabelas-no-postgresql/>
-- Instalando o Postgres: 
-  - <https://www.postgresql.org/download/linux/ubuntu/>
-- Instalando o pgadmin4 (ferramenta gráfica - a versão web é legal!): 
-  - <https://www.pgadmin.org/download/pgadmin-4-apt/>
-- Tutoriais interessantes: 
-  - <https://www.youtube.com/watch?v=grJlOnbZYus>
+
