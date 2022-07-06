@@ -13,6 +13,14 @@ IF NOT EXISTS (
 CREATE DATABASE [TutorialDB]
 ~~~
 
+## Deletar um Banco de Dados
+
+~~~sql
+USE master
+ 
+DROP DATABASE Sales, NewSales
+~~~
+
 ## Criar uma Tabela
 
 ~~~sql
@@ -32,6 +40,12 @@ CREATE TABLE dbo.Customers
 );
 ~~~
 
+## Deletar uma Tabela
+
+~~~sql
+
+~~~
+
 ## Inserir Linhas
 
 ~~~sql
@@ -42,6 +56,18 @@ VALUES
    ( 2, N'Keith', N'India', N'keith0@adventure-works.com'),
    ( 3, N'Donna', N'Germany', N'donna0@adventure-works.com'),
    ( 4, N'Janet', N'United States', N'janet1@adventure-works.com')
+~~~
+
+## Atualizar uma Linha
+
+~~~sql
+
+~~~
+
+## Remover uma Linha
+
+~~~sql
+
 ~~~
 
 ## Consultar uma Tabela
