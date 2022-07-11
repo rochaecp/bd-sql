@@ -43,7 +43,8 @@ CREATE TABLE dbo.Customers
 ## Deletar uma Tabela
 
 ~~~sql
-
+USE TutorialDB
+DROP TABLE dbo.Customers
 ~~~
 
 ## Inserir Linhas
