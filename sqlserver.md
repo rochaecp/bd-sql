@@ -44,6 +44,7 @@ CREATE TABLE dbo.Customers
 
 ~~~sql
 USE TutorialDB
+
 DROP TABLE dbo.Customers
 ~~~
 
