@@ -33,10 +33,10 @@ DROP TABLE dbo.Customers
 -- Create a new table called 'Customers' in schema 'dbo'
 CREATE TABLE dbo.Customers
 (
-   CustomerId        INT    NOT NULL   PRIMARY KEY, -- primary key column
-   Name      [NVARCHAR](50)  NOT NULL,
-   Location  [NVARCHAR](50)  NOT NULL,
-   Email     [NVARCHAR](50)  NOT NULL
+   CustomerId  INT             NOT NULL  IDENTITY(1,1)  PRIMARY KEY, 
+   Name        [NVARCHAR](50)  NOT NULL,
+   Location    [NVARCHAR](50)  NOT NULL,
+   Email       [NVARCHAR](50)  NOT NULL
 );
 ~~~
 
