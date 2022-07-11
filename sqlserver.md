@@ -48,7 +48,7 @@ USE TutorialDB
 DROP TABLE dbo.Customers
 ~~~
 
-## Inserir Linhas
+## Inserir um Registro
 
 ~~~sql
 INSERT INTO dbo.Customers
@@ -60,16 +60,19 @@ VALUES
    ( 4, N'Janet', N'United States', N'janet1@adventure-works.com')
 ~~~
 
-## Atualizar uma Linha
+## Deletar um Registro
 
 ~~~sql
-
+DELETE FROM dbo.Customers
+WHERE Id = 1;
 ~~~
 
-## Remover uma Linha
+## Atualizar um Registro
 
 ~~~sql
-
+UPDATE dbo.Customers
+SET Name = 'Mauricio'
+WHERE Id = 1
 ~~~
 
 ## Consultar uma Tabela
