@@ -28,3 +28,8 @@
     - ROLLBACK
     - SAVEPOINT
 
+## Geral
+
+- T-SQL (Transact-SQL) - Implementação/Extensão da Microsoft do SQL
+- PL-SQL (Procedural Language SQL) - Implementação/Extensão da Oracle do SQL
+
