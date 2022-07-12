@@ -86,6 +86,13 @@ SELECT * FROM dbo.Customers
 ## Geral
 
 ~~~sql
--- checar qual é o db atual 
+-- Checar qual é o DB atual 
 SELECT DB_NAME()
+
+-- Listar todos BDs
+SELECT name
+FROM sys.databases
+
+-- Versão do SQL Server
+SELECT @@VERSION
 ~~~
