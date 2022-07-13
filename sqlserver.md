@@ -21,6 +21,12 @@ USE master
 DROP DATABASE Sales, NewSales
 ~~~
 
+## Criar um Schema
+
+~~~sql
+CREATE SCHEMA sales
+~~~
+
 ## Criar uma Tabela
 
 ~~~sql
@@ -31,8 +37,7 @@ IF OBJECT_ID('dbo.Customers', 'U') IS NOT NULL
 DROP TABLE dbo.Customers
 
 -- Create a new table called 'Customers' in schema 'dbo'
-CREATE TABLE dbo.Customers
-(
+CREATE TABLE dbo.Customers (
    CustomerId  INT             NOT NULL  IDENTITY(1,1)  PRIMARY KEY, 
    Name        [NVARCHAR](50)  NOT NULL,
    Location    [NVARCHAR](50)  NOT NULL,
