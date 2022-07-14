@@ -140,9 +140,9 @@ DROP DATABASE BikeStores, CarStores
 ## DROP - Deletar uma Tabela
 
 ~~~sql
-USE TutorialDB
+USE BikeStores
 
-DROP TABLE dbo.Customers
+DROP TABLE sales.Customers
 ~~~
 
 ## Referências
