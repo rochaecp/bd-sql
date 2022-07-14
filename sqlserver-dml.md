@@ -2,120 +2,67 @@
 
 ## INSERT - Inserir um Registro
 
-- Exemplo básico
-
 ~~~sql
-INSERT INTO dbo.customers
-    (CustomerId, Name, Location, Email)
+USE LojasInformatica
+
+-- =============================
+-- Insere producao.categorias
+-- =============================
+
+SET IDENTITY_INSERT producao.categorias ON;
+
+INSERT INTO producao.categorias 
+    (id_categoria, nome_categoria)
 VALUES
-    ( 1, N'Orlando', N'Australia', N''),
-    ( 2, N'Keith', N'India', N'keith0@adventure-works.com'),
-    ( 3, N'Donna', N'Germany', N'donna0@adventure-works.com'),
-    ( 4, N'Janet', N'United States', N'janet1@adventure-works.com')
-~~~
+    (1, 'Computadores'),
+    (2, 'Notebooks'),
+    (3, 'Celulares'),
+    (4, 'Impressoras');
 
-- Exemplo BikeStores
+SET IDENTITY_INSERT producao.categorias OFF;
 
-~~~sql
-USE BikeStores
+-- =============================
+-- Insere producao.marcas
+-- =============================
 
--- production.brands
-SET IDENTITY_INSERT production.brands ON;
+SET IDENTITY_INSERT producao.marcas ON;
 
-INSERT INTO production.brands
-    (brand_id, brand_name) 
+INSERT INTO producao.marcas
+    (id_marca, nome_marca)
 VALUES
-    (1, 'Electra'),
-    (2, 'Haro');
-   
-SET IDENTITY_INSERT production.brands OFF;
+    (1, 'Dell'),
+    (2, 'HP'),
+    (3, 'Samsung'),
+    (4, 'Philco');
 
--- production.categories
-SET IDENTITY_INSERT production.categories ON;
+SET IDENTITY_INSERT producao.marcas OFF;
 
-INSERT INTO production.categories
-    (category_id, category_name) 
+-- =============================
+-- Insere producao.produtos
+-- =============================
+
+SET IDENTITY_INSERT producao.produtos ON;
+
+INSERT INTO producao.produtos
+    (id_produto, nome_produto, id_marca, id_categoria, preco)
 VALUES
-    (1, 'Children Bicycles'),
-    (2, 'Comfort Bicycles');
-   
-SET IDENTITY_INSERT production.categories OFF; 
+    (1, 'PC Desktop Dell Inspiron', 1, 1, 3000.00),
+    (2, 'Celular Samsung J3', 3, 3, 1500.00),
+    (3, 'Notebook HP 1 TB', 2, 2, 21000.00),
+    (4, 'Notebook Dell Inspiron', 1, 2, 4500.00);
 
--- production.products
-SET IDENTITY_INSERT production.products ON;
-
-INSERT INTO production.products
-    (product_id, product_name, brand_id, category_id, model_year, list_price) 
-VALUES
-    (1, 'Trek 820 - 2016', 1, 2, 2016, 379.99),
-    (2, 'Ritchey Timberwolf Frameset - 2016', 2, 1, 2016, 749.99);
-   
-SET IDENTITY_INSERT production.products OFF;
-
--- sales.customers
-INSERT INTO sales.customers
-    (first_name, last_name, phone, email, street, city, state, zip_code) 
-VALUES
-    ('Debra', 'Burks',NULL, 'debra.burks@yahoo.com', '9273 Thorne Ave. ', 'Orchard Park', 'NY', 14127),
-    ('Kasha', 'Todd',NULL, 'kasha.todd@yahoo.com', '910 Vine Street ', 'Campbell', 'CA', 95008);
-
--- sales.stores
-INSERT INTO sales.stores
-    (store_name, phone, email, street, city, state, zip_code)
-VALUES
-    ('Santa Cruz Bikes', '(831) 476-4321', 'santacruz@bikes.shop', '3700 Portola Drive', 'Santa Cruz', 'CA', 95060),
-    ('Baldwin Bikes', '(516) 379-8888', 'baldwin@bikes.shop', '4200 Chestnut Lane', 'Baldwin','NY', 11432),
-    ('Rowlett Bikes', '(972) 530-5555', 'rowlett@bikes.shop', '8000 Fairway Avenue', 'Rowlett','TX',75088);
-
--- production.stocks 
-INSERT INTO production.stocks
-    (store_id, product_id, quantity) 
-VALUES
-    (1, 1, 27),
-    (1, 2, 5);
-
--- sales.staffs
-SET IDENTITY_INSERT sales.staffs ON;
-
-INSERT INTO sales.staffs
-    (staff_id, first_name, last_name, email, phone, active, store_id, manager_id) 
-VALUES
-    (1, 'Fabiola', 'Jackson', 'fabiola.jackson@bikes.shop', '(831) 555-5554', 1, 1, NULL),
-    (2, 'Mireya', 'Copeland', 'mireya.copeland@bikes.shop', '(831) 555-5555', 1, 1, 1);
-
-SET IDENTITY_INSERT sales.staffs OFF;  
-
--- sales.orders
-SET IDENTITY_INSERT sales.orders ON; 
-
-INSERT INTO sales.orders
-    (order_id, customer_id, order_status, order_date, required_date, shipped_date, store_id,staff_id) 
-VALUES
-    (1, 1, 4, '20160101', '20160103', '20160103', 1, 2),
-    (2, 2, 4, '20160101', '20160104', '20160103', 2, 1);
-
-SET IDENTITY_INSERT sales.orders OFF;  
-
--- sales.order_items
-INSERT INTO sales.order_items
-    (order_id, item_id, product_id, quantity, list_price,discount) 
-VALUES
-    (1, 1, 2, 1, 599.99, 0.2),
-    (1, 2, 1, 2, 1799.99, 0.07);
+SET IDENTITY_INSERT producao.produtos OFF;
 ~~~
 
 ## UPDATE - Atualizar um Registro
 
-- Exemplo básico
-
 ~~~sql
-USE BikeStores
+USE LojasInformatica
 
-UPDATE sales.customers
+UPDATE producao.marcas
 SET 
-    first_name = 'Mauricio',
-    last_name = 'Rocha'
-WHERE customer_id = 1
+    nome_marca = 'Toshiba',
+WHERE id_marca = 4
 ~~~
 
 ## DELETE - Deletar um Registro
@@ -123,10 +70,7 @@ WHERE customer_id = 1
 - Exemplo básico
 
 ~~~sql
-DELETE FROM sales.customers
-WHERE customer_id = 3
+DELETE FROM producao.marcas
+WHERE id_marcas = 4
 ~~~
 
-## Referências
-
-- [SQL SERVER Tutorial](https://www.sqlservertutorial.net/)
