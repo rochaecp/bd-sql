@@ -1,6 +1,6 @@
 # SQL Server - DML (Data Manipulation Language)
 
-## Inserir um Registro
+## INSERT - Inserir um Registro
 
 ~~~sql
 INSERT INTO dbo.Customers
@@ -12,17 +12,19 @@ VALUES
    ( 4, N'Janet', N'United States', N'janet1@adventure-works.com')
 ~~~
 
-## Deletar um Registro
-
-~~~sql
-DELETE FROM dbo.Customers
-WHERE Id = 1;
-~~~
-
-## Atualizar um Registro
+## UPDATE - Atualizar um Registro
 
 ~~~sql
 UPDATE dbo.Customers
 SET Name = 'Mauricio'
 WHERE Id = 1
 ~~~
+
+## DELETE - Deletar um Registro
+
+~~~sql
+DELETE FROM dbo.Customers
+WHERE Id = 1;
+~~~
+
+
