@@ -1,4 +1,4 @@
-# SQL Server
+# SQL Server - DDL (Data Definition Language)
 
 ## Criar um Banco de Dados
 
@@ -51,53 +51,4 @@ CREATE TABLE dbo.Customers (
 USE TutorialDB
 
 DROP TABLE dbo.Customers
-~~~
-
-## Inserir um Registro
-
-~~~sql
-INSERT INTO dbo.Customers
-   ([CustomerId],[Name],[Location],[Email])
-VALUES
-   ( 1, N'Orlando', N'Australia', N''),
-   ( 2, N'Keith', N'India', N'keith0@adventure-works.com'),
-   ( 3, N'Donna', N'Germany', N'donna0@adventure-works.com'),
-   ( 4, N'Janet', N'United States', N'janet1@adventure-works.com')
-~~~
-
-## Deletar um Registro
-
-~~~sql
-DELETE FROM dbo.Customers
-WHERE Id = 1;
-~~~
-
-## Atualizar um Registro
-
-~~~sql
-UPDATE dbo.Customers
-SET Name = 'Mauricio'
-WHERE Id = 1
-~~~
-
-## Consultar uma Tabela
-
-~~~sql
-SELECT * FROM dbo.Customers
-~~~
-
-- - - - - - - - - - - - - 
-
-## Geral
-
-~~~sql
--- Checar qual é o DB atual 
-SELECT DB_NAME()
-
--- Listar todos BDs
-SELECT name
-FROM sys.databases
-
--- Versão do SQL Server
-SELECT @@VERSION
 ~~~
