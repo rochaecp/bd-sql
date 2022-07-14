@@ -38,25 +38,25 @@ USE LojasInformatica
 
 -- producao.categorias
 CREATE TABLE producao.categorias (
-	id_categoria INT IDENTITY (1, 1) PRIMARY KEY,
-	nome_categoria VARCHAR (255) NOT NULL
+    id_categoria INT IDENTITY (1, 1) PRIMARY KEY,
+    nome_categoria VARCHAR (255) NOT NULL
 );
 
 -- producao.marcas
 CREATE TABLE producao.marcas (
-	id_marca INT IDENTITY (1, 1) PRIMARY KEY,
-	nome_marca VARCHAR (255) NOT NULL
+    id_marca INT IDENTITY (1, 1) PRIMARY KEY,
+    nome_marca VARCHAR (255) NOT NULL
 );
 
 -- producao.produtos
 CREATE TABLE producao.produtos (
-	id_produto INT IDENTITY (1, 1) PRIMARY KEY,
-	nome_produto VARCHAR (255) NOT NULL,
-	id_marca INT NOT NULL,
-	id_categoria INT NOT NULL,
-	preco DECIMAL (10, 2) NOT NULL,
-	FOREIGN KEY (id_marca) REFERENCES producao.marcas (id_marca) ON DELETE CASCADE ON UPDATE CASCADE,
-	FOREIGN KEY (id_categoria) REFERENCES producao.categorias (id_categoria) ON DELETE CASCADE ON UPDATE CASCADE
+    id_produto INT IDENTITY (1, 1) PRIMARY KEY,
+    nome_produto VARCHAR (255) NOT NULL,
+    id_marca INT NOT NULL,
+    id_categoria INT NOT NULL,
+    preco DECIMAL (10, 2) NOT NULL,
+    FOREIGN KEY (id_marca) REFERENCES producao.marcas (id_marca) ON DELETE CASCADE ON UPDATE CASCADE,
+    FOREIGN KEY (id_categoria) REFERENCES producao.categorias (id_categoria) ON DELETE CASCADE ON UPDATE CASCADE
 );
 ~~~
 
