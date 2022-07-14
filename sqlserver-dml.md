@@ -5,7 +5,7 @@
 - Exemplo básico
 
 ~~~sql
-INSERT INTO dbo.Customers
+INSERT INTO dbo.customers
 	(CustomerId, Name, Location, Email)
 VALUES
     ( 1, N'Orlando', N'Australia', N''),
