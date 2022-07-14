@@ -10,7 +10,7 @@ IF NOT EXISTS (
    FROM sys.databases
    WHERE name = N'BikeStores'
 )
-CREATE DATABASE [BikeStores]
+CREATE DATABASE BikeStores;
 ~~~
 
 ## CREATE - Criar um Schema
