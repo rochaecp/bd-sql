@@ -123,4 +123,6 @@ DELETE FROM dbo.Customers
 WHERE Id = 1;
 ~~~
 
+## Referências
 
+- [SQL SERVER Tutorial](https://www.sqlservertutorial.net/)
