@@ -4,5 +4,5 @@
 
 ~~~sql
 SELECT * 
-FROM dbo.Customers
+FROM producao.marcas
 ~~~
