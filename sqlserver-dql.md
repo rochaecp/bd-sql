@@ -12,9 +12,9 @@ FROM producao.marcas
 ~~~sql
 -- inner join (categorias)
 SELECT 
-    id_produto AS IDs, 
-    nome_produto AS Produtos, 
-    nome_categoria AS Categorias
+    p.id_produto AS IDs, 
+    p.nome_produto AS Produtos, 
+    c.nome_categoria AS Categorias
 FROM 
     producao.produtos p
 INNER JOIN producao.categorias c
@@ -22,10 +22,10 @@ INNER JOIN producao.categorias c
 
 -- inner join (categorias e marcas)
 SELECT 
-    id_produto AS IDs,
-    nome_produto AS Produtos,
-    nome_categoria AS Categorias,
-    nome_marca AS Marcas
+    p.id_produto AS IDs,
+    p.nome_produto AS Produtos,
+    c.nome_categoria AS Categorias,
+    m.nome_marca AS Marcas
 FROM 
     producao.produtos p
 INNER JOIN producao.marcas m
