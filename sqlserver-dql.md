@@ -3,8 +3,10 @@
 ## Consultar todas as colunas de uma tabela
 
 ~~~sql
-SELECT *                -- evitar
-FROM producao.marcas
+SELECT 
+    *    -- evitar
+FROM 
+    producao.marcas
 ~~~
 
 ## WHERE e ORDER BY
