@@ -1,10 +1,60 @@
 # SQL Server - DQL (Data Query Language)
 
-## Consultar uma Tabela
+## Consultar todas as colunas de uma tabela
 
 ~~~sql
-SELECT * 
+SELECT *                -- evitar
 FROM producao.marcas
+~~~
+
+## WHERE e ORDER BY
+
+~~~sql
+SELECT 
+    nome_produto, 
+    preco
+FROM 
+    producao.produtos
+WHERE 
+    preco <= 3000
+ORDER BY
+    preco ASC
+~~~
+
+## WHERE, GROUP BY e ORDER BY
+
+~~~sql
+SELECT 
+    id_categoria,
+    COUNT (*) AS Quantidade
+FROM 
+    producao.produtos
+WHERE 
+    preco <= 50000
+GROUP BY 
+    id_categoria
+ORDER BY
+    id_categoria 
+~~~
+
+## WHERE, GROUP BY, HAVING e ORDER BY
+
+- Para filtrar grupos com base em uma ou mais condições, use a cláusula HAVING.
+
+~~~sql
+SELECT
+    city,
+    COUNT (*)
+FROM
+    sales.customers
+WHERE
+    state = 'CA'
+GROUP BY
+    city
+HAVING
+    COUNT (*) > 10
+ORDER BY
+    city;
 ~~~
 
 ## INNER JOIN
