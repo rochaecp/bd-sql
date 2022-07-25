@@ -60,8 +60,7 @@ SET IDENTITY_INSERT producao.produtos OFF;
 USE LojasInformatica
 
 UPDATE producao.marcas
-SET 
-    nome_marca = 'Toshiba',
+SET nome_marca = 'Toshiba',
 WHERE id_marca = 4
 ~~~
 
