@@ -18,9 +18,10 @@ SELECT
 FROM 
     producao.produtos
 WHERE 
-    preco <= 3000
+    preco <= 30000
 ORDER BY
-    preco ASC
+    preco ASC, -- ASC (default)
+    LEN (nome_produto) DESC
 ~~~
 
 ## WHERE, GROUP BY e ORDER BY
