@@ -44,19 +44,19 @@ ORDER BY
 - Para filtrar grupos com base em uma ou mais condições, use a cláusula HAVING.
 
 ~~~sql
-SELECT
-    city,
-    COUNT (*)
+SELECT 
+	id_marca,
+	COUNT (*)
 FROM
-    sales.customers
+	producao.produtos
 WHERE
-    state = 'CA'
+	id_marca < 4
 GROUP BY
-    city
-HAVING
-    COUNT (*) > 10
+	id_marca
+HAVING 
+	COUNT (*) > 1
 ORDER BY
-    city;
+	COUNT (*)
 ~~~
 
 ## INNER JOIN
