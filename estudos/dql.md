@@ -42,22 +42,36 @@ ORDER BY
 
 ## WHERE, GROUP BY, HAVING e ORDER BY
 
-- Para filtrar grupos com base em uma ou mais condições, use a cláusula HAVING.
+> - Para filtrar grupos com base em uma ou mais condições, use a cláusula HAVING.
 
 ~~~sql
 SELECT 
-	id_marca,
-	COUNT (*)
+    id_marca,
+    COUNT (*)
 FROM
-	producao.produtos
+    producao.produtos
 WHERE
-	id_marca < 4
+    id_marca < 4
 GROUP BY
-	id_marca
+    id_marca
 HAVING 
-	COUNT (*) > 1
+    COUNT (*) > 1
 ORDER BY
-	COUNT (*)
+    COUNT (*)
+~~~
+
+## ORDER BY, OFFSET e FETCH
+
+~~~sql
+SELECT 
+    nome_produto,
+    preco
+FROM
+    producao.produtos
+ORDER BY
+    preco DESC
+OFFSET 1 ROWS              -- pula primeiro - {ROW == ROWS}
+FETCH NEXT 2 ROWS ONLY     -- (cláusula opcional) pega próximos 2 - {NEXT == FIRST}, {ROW == ROWS}
 ~~~
 
 ## INNER JOIN
