@@ -1,6 +1,6 @@
 # SQL Server
 
-1. [Introducao](estudos/teoria.md)
+1. [Teoria](estudos/teoria.md)
 1. [DDL (Data Definition Language)](estudos/ddl.md)
 1. [DML (Data Manipulation Language)](estudos/dml.md)
 1. [DQL (Data Query Language)](estudos/dql.md)
