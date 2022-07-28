@@ -48,8 +48,9 @@ INSERT INTO producao.produtos
 VALUES
     (1, 'PC Desktop Dell Inspiron', 1, 1, 3000.00),
     (2, 'Celular Samsung J3', 3, 3, 1500.00),
-    (3, 'Notebook HP 1 TB', 2, 2, 21000.00),
-    (4, 'Notebook Dell Inspiron', 1, 2, 4500.00);
+    (3, 'Notebook HP 1 TB', 2, 2, 2500.00),
+    (4, 'Notebook Dell Inspiron', 1, 2, 4500.00),
+    (5, 'Notebook Dell Ultra', 1, 2, 4500.00);
 
 SET IDENTITY_INSERT producao.produtos OFF;
 ~~~
