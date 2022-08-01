@@ -98,7 +98,7 @@
     ~~~    
     
     ~~~sql
-    SELECT TOP 3 WITH TIES -- inclui repetidos
+    SELECT TOP 3 WITH TIES -- inclui repetidos mesmo que passe de 3 registros
         nome_produto,
         preco
     FROM
