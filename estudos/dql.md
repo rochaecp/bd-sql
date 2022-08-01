@@ -107,6 +107,15 @@
         preco DESC    
     ~~~    
 
+- DISTINCT
+
+    ~~~sql
+    SELECT DISTINCT
+        preco
+    FROM
+        producao.produtos    
+    ~~~
+
 - INNER JOIN
 
     ~~~sql
