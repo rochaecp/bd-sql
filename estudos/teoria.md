@@ -33,25 +33,6 @@
 - Em SQL, uma expressão lógica é frequentemente chamada de predicado.
 - Uma expressão lógica pode ser avaliada como TRUE, FALSE, ou UNKNOWN.
 
-## Operadores
-
-### Operadores Lógicos
-
-- ```AND```
-- ```OR```
-
-### Operadores Relacionais
-
-- ```>```
-- ```=``` 
-- ```<>``` 
-
-### Outros Operadores
-
-- ```BETWEEN```
-- ```IN```
-- ```LIKE```
-
 ### Outras implementações
 
 - T-SQL (Transact-SQL) - Implementação/Extensão da Microsoft do SQL
