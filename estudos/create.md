@@ -59,19 +59,3 @@ CREATE TABLE producao.produtos (
     FOREIGN KEY (id_categoria) REFERENCES producao.categorias (id_categoria) ON DELETE CASCADE ON UPDATE CASCADE
 );
 ~~~
-
-## DROP - Deletar um Banco de Dados
-
-~~~sql
-USE master
- 
-DROP DATABASE LojasInformatica
-~~~
-
-## DROP - Deletar uma Tabela
-
-~~~sql
-USE LojasInformatica
-
-DROP TABLE producao.produtos
-~~~
