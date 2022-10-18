@@ -54,23 +54,3 @@ VALUES
 
 SET IDENTITY_INSERT producao.produtos OFF;
 ~~~
-
-## UPDATE - Atualizar um Registro
-
-~~~sql
-USE LojasInformatica
-
-UPDATE producao.marcas
-SET nome_marca = 'Toshiba'
-WHERE id_marca = 4
-~~~
-
-## DELETE - Deletar um Registro
-
-- Exemplo básico
-
-~~~sql
-DELETE FROM producao.marcas
-WHERE id_marcas = 4
-~~~
-
