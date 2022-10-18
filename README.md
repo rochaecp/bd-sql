@@ -18,13 +18,13 @@
 
 1. [SELECT](estudos/select.md)
 1. [WHERE](estudos/where.md)
-1. [ORDER BY](estudos/where.md)
-1. [GROUP BY](estudos/where.md)
-1. [HAVING](estudos/where.md)
-1. [OFFSET e FETCH](estudos/where.md)
-1. [TOP](estudos/where.md)
-1. [DISTINCT](estudos/where.md)
-1. [INNER JOIN](estudos/where.md)
+1. [ORDER BY](estudos/orderby.md)
+1. [GROUP BY](estudos/groupby.md)
+1. [HAVING](estudos/having.md)
+1. [OFFSET e FETCH](estudos/offsetFetch.md)
+1. [TOP](estudos/top.md)
+1. [DISTINCT](estudos/distinct.md)
+1. [INNER JOIN](estudos/innerjoin.md)
 
 ## DCL (Data Control Language)
 
