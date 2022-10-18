@@ -1,6 +1,4 @@
-# SQL Server - DQL (Data Query Language)
-
-## DISTINCT
+# SQL Server - DISTINCT
 
 ~~~sql
 SELECT DISTINCT

@@ -1,6 +1,6 @@
-# SQL Server - DDL (Data Definition Language)
+# SQL Server - CREATE
 
-## CREATE - Criar um Banco de Dados
+## Criar um Banco de Dados
 
 ~~~sql
 USE master
@@ -13,7 +13,7 @@ IF NOT EXISTS (
 CREATE DATABASE LojasInformatica;
 ~~~
 
-## CREATE - Criar um Schema
+## Criar um Schema
 
 ~~~sql
 USE LojasInformatica
@@ -25,7 +25,7 @@ CREATE SCHEMA vendas;
 GO
 ~~~
 
-## CREATE - Criar uma Tabela
+## Criar uma Tabela
 
 ~~~sql
 USE LojasInformatica

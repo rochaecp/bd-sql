@@ -1,6 +1,4 @@
-# SQL Server - DQL (Data Query Language)
-
-## ORDER BY
+# SQL Server - ORDER BY
 
 ~~~sql
 SELECT 

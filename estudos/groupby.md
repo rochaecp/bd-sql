@@ -1,6 +1,4 @@
-# SQL Server - DQL (Data Query Language)
-
-## GROUP BY
+# SQL Server - GROUP BY
 
 ~~~sql
 SELECT 

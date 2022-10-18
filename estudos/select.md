@@ -1,6 +1,4 @@
-# SQL Server - DQL (Data Query Language)
-
-## SELECT *
+# SQL Server - SELECT
 
 ~~~sql
 SELECT 

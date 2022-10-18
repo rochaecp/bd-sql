@@ -1,6 +1,6 @@
-# SQL Server - DML (Data Manipulation Language)
+# SQL Server - INSERT
 
-## INSERT - Inserir um Registro
+## Inserindo Registros
 
 ~~~sql
 USE LojasInformatica

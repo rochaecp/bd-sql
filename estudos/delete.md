@@ -1,6 +1,6 @@
-# SQL Server - DML (Data Manipulation Language)
+# SQL Server - DELETE
 
-## DELETE - Deletar um Registro
+## Deletar um Registro
 
 - Exemplo básico
 

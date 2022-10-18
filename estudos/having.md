@@ -1,6 +1,4 @@
-# SQL Server - DQL (Data Query Language)
-
-## HAVING
+# SQL Server - HAVING
 
 > - Para filtrar grupos com base em uma ou mais condições, use a cláusula HAVING.
 

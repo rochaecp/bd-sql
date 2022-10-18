@@ -1,6 +1,4 @@
-# SQL Server - DQL (Data Query Language)
-
-## TOP
+# SQL Server - TOP
 
 ~~~sql
 SELECT TOP 2 -- retorna 2 registros

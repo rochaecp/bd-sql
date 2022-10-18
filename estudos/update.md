@@ -1,6 +1,6 @@
-# SQL Server - DML (Data Manipulation Language)
+# SQL Server - UPDATE 
 
-## UPDATE - Atualizar um Registro
+## Atualizar um Registro
 
 ~~~sql
 USE LojasInformatica

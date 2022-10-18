@@ -1,6 +1,6 @@
-# SQL Server - DDL (Data Definition Language)
+# SQL Server - DROP
 
-## DROP - Deletar um Banco de Dados
+## Deletar um Banco de Dados
 
 ~~~sql
 USE master
@@ -8,7 +8,7 @@ USE master
 DROP DATABASE LojasInformatica
 ~~~
 
-## DROP - Deletar uma Tabela
+## Deletar uma Tabela
 
 ~~~sql
 USE LojasInformatica

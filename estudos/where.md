@@ -1,8 +1,6 @@
-# SQL Server - DQL (Data Query Language)
+# SQL Server - WHERE 
 
-## WHERE 
-
-### AND
+## AND
 
 ~~~sql
 SELECT 
@@ -15,7 +13,7 @@ WHERE
    AND id_produto >= 7;
 ~~~
 
-### BETWEEN
+## BETWEEN
 
 ~~~sql
 SELECT 
@@ -27,7 +25,7 @@ WHERE
    preco BETWEEN 1500 AND 4500 -- inclui 1500 e 4500
 ~~~
 
-### IN
+## IN
 
 ~~~sql
 SELECT 
@@ -39,7 +37,7 @@ WHERE
    preco IN (1500, 2500, 3000.00)
 ~~~
 
-### LIKE
+## LIKE
 
 ~~~sql
 SELECT 

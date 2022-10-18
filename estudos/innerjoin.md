@@ -1,6 +1,4 @@
-# SQL Server - DQL (Data Query Language)
-
-## INNER JOIN
+# SQL Server - INNER JOIN
 
 ~~~sql
 -- inner join (categorias)

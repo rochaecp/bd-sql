@@ -1,6 +1,4 @@
-# SQL Server - DQL (Data Query Language)
-
-## OFFSET e FETCH
+# SQL Server - OFFSET e FETCH
 
 ~~~sql
 SELECT 
