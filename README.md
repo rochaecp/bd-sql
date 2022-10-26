@@ -2,6 +2,7 @@
 
 1. [Teoria](estudos/teoria.md)
 1. [Operadores](estudos/operadores.md)
+1. [Tipos de Dados](estudos/tipos.md)
 1. [Úteis](estudos/uteis.md)
 
 ## DDL (Data Definition Language)
