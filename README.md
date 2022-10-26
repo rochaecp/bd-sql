@@ -1,9 +1,14 @@
 # SQL Server
 
+## Úteis
+
+- [Úteis](estudos/uteis.md)
+
+## Introdução
+
 1. [Teoria](estudos/teoria.md)
 1. [Operadores](estudos/operadores.md)
 1. [Tipos de Dados](estudos/tipos.md)
-1. [Úteis](estudos/uteis.md)
 
 ## DDL (Data Definition Language)
 
@@ -31,3 +36,9 @@
 ## DCL (Data Control Language)
 
 ## DTL (Data Transaction Language)
+
+## Exemplos
+
+1. [Lojas de Informática](https://github.com/rochaecp/sql-server/tree/master/exemplos/LojasInformatica)
+
+
