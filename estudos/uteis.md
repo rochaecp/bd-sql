@@ -1,6 +1,6 @@
 # SQL Server 
 
-## Funções, constantes e parâmetros prontas
+## Funções, constantes e parâmetros prontos
 
 ~~~sql
 -- Checar qual é o DB atual 
