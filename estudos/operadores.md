@@ -11,8 +11,17 @@
 - ```=``` 
 - ```<>``` 
 
-## Outros Operadores
+## Operadores para NULL
+
+- ```IS NULL```
+- ```IS NOT NULL```
+
+## Operadores para intervalos
 
 - ```BETWEEN```
 - ```IN```
+
+## Operadores para String
+
 - ```LIKE```
+
