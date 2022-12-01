@@ -8,6 +8,8 @@
 
 1. [Sobre o SQL Server](estudos/about.md)
 1. [Operadores](estudos/operadores.md)
+    - [AND](estudos/and.md)
+    - [OR](estudos/or.md)
 1. [Tipos de Dados](estudos/tipos.md)
 1. [NULL](estudos/null.md)
 
