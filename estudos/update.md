@@ -1,6 +1,6 @@
 # SQL Server - UPDATE 
 
-## Atualizar um Registro
+## Atualizar um registro
 
 ~~~sql
 USE LojasInformatica
@@ -8,4 +8,10 @@ USE LojasInformatica
 UPDATE producao.marcas
 SET nome_marca = 'Toshiba'
 WHERE id_marca = 4
+~~~
+
+## Atualizar dois registros ou mais
+
+~~~sql
+
 ~~~
