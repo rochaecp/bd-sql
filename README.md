@@ -2,16 +2,14 @@
 
 ## Úteis
 
-- [Úteis](estudos/uteis.md)
+1. [Úteis](estudos/uteis.md)
 
 ## Introdução
 
 1. [Sobre o SQL Server](estudos/about.md)
 1. [Operadores](estudos/operadores.md)
-    - [AND](estudos/and.md)
-    - [OR](estudos/or.md)
 1. [Tipos de Dados](estudos/tipos.md)
-1. [NULL](estudos/null.md)
+1. [Stored Procedures](estudos/stored-procedures.md)
 
 ## DDL (Data Definition Language)
 
@@ -42,6 +40,6 @@
 
 ## Exemplos
 
-1. [Lojas de Informática](https://github.com/rochaecp/sql-server/tree/master/exemplos/LojasInformatica)
+1. [Lojas de Informática](https://github.com/rochaecp/sql-server/tree/master/estudos/exemplos/LojasInformatica)
 
 
