@@ -1,30 +1,31 @@
 # SQL Server
 
-## Úteis
-
-1. [Úteis](estudos/uteis.md)
-
 ## Introdução
 
 1. [Sobre o SQL Server](estudos/about.md)
 1. [Operadores](estudos/operadores.md)
 1. [Tipos de Dados](estudos/tipos.md)
-1. [Stored Procedures](estudos/stored-procedures.md)
+1. [Funções prontas](estudos/funcoes-definidas.md)
+1. [Constantes pré-definidas](estudos/constantes-definidas.md)
+3. [Stored Procedures](estudos/stored-procedures.md)
 
 ## DDL (Data Definition Language)
 
 1. [CREATE](estudos/create.md)
 1. [DROP](estudos/drop.md)
-1. [ALTER](#)
-1. [TRUNCATE](#)
-1. [RENAME](#)
-1. [COMENTÁRIOS](#)
+1. ALTER
+1. TRUNCATE
+1. RENAME
+1. COMENTÁRIOS
 
 ## DML (Data Manipulation Language)
 
 1. [INSERT](estudos/insert.md)
 1. [UPDATE](estudos/update.md)
 1. [DELETE](estudos/delete.md)
+2. CALL
+3. EXPLAIN CALL
+4. LOCK
 
 ## DQL (Data Query Language)
 
@@ -40,15 +41,15 @@
 
 ## DCL (Data Control Language)
 
-1. [GRANT](#)
-1. [REVOKE](#)
+1. GRANT
+1. REVOKE
 
 ## DTL (Data Transaction Language)
 
-1. [BEGIN / SET TRANSATION](#)
-1. [COMMIT](#)
-1. [ROLLBACK](#)
-1. [SAVEPOINT](#)
+1. BEGIN / SET TRANSATION
+1. COMMIT
+1. ROLLBACK
+1. SAVEPOINT
 
 ## Exemplos
 
