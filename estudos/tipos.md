@@ -4,7 +4,7 @@
 
 ### Inteiros
 
-| Tipo          | Tamanho   | Obs.:                             |
+| Tipo          | Tamanho   | Intervalo                         |
 | :---:         | :---:     | :---:                             |
 | bit           | 8 bytes   | 0, 1 ou NULL                      |
 | tinyint       | 1 byte    | 0 a 255                           |
@@ -13,25 +13,19 @@
 
 ### Decimais e ponto flutuante
 
-| Tipo          | Tamanho   | Obs.: |
-| :---:         | :---:     | :---: |
-| bigint        | 8 bytes   | -9,223,372,036,854,775,808 a 9,223,372,036,854,775,807      |
-| decimal(p, s) | xx bytes  |       |
-| numeric(p, s) | xx bytes  |       |
-| smallmoney    | xx bytes  |       |
-| money         | xx bytes  |       |
-| float(n)      | xx bytes  |       |
-| real          | xx bytes  |       |
+| Tipo          | Tamanho   | Intervalo                                                 |
+| :---:         | :---:     | :---:                                                     |
+| bigint        | 8 bytes   | -9,223,372,036,854,775,808 a 9,223,372,036,854,775,807    |
+| decimal(p, s) | xx bytes  |                                                           |
+| numeric(p, s) | xx bytes  |                                                           |
+| smallmoney    | xx bytes  |                                                           |
+| money         | xx bytes  |                                                           |
+| float(n)      | xx bytes  |                                                           |
+| real          | xx bytes  |                                                           |
 
 ## String
 
-| Tipo     | Tamanho |
-| :---:    | :---:   |
-
 ## Data
-
-| Tipo     | Tamanho |
-| :---:    | :---:   |
 
 ## NULL
 
@@ -47,7 +41,7 @@ NULL > 0
 NULL = NULL 
 ~~~
 
-#### Testando se um valor é NULL
+#### Testar se um valor é NULL
 
 - Para isso utilizamos o operador IS NULL:
 
@@ -61,7 +55,7 @@ WHERE
     nome_marca IS NULL
 ~~~
 
-#### Testando se um valor não é NULL
+#### Testar se um valor não é NULL
 
 - Para isso utilizamos o operador IS NOT NULL:
 
@@ -74,11 +68,6 @@ FROM
 WHERE
     nome_marca IS NOT NULL
 ~~~
-
-## Outros
-
-| Tipo     | Tamanho |
-| :---:    | :---:   |
 
 ## Mais informações
 
