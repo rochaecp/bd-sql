@@ -15,6 +15,10 @@
 
 1. [CREATE](estudos/create.md)
 1. [DROP](estudos/drop.md)
+1. [ALTER](#)
+1. [TRUNCATE](#)
+1. [RENAME](#)
+1. [COMENTÁRIOS](#)
 
 ## DML (Data Manipulation Language)
 
@@ -36,10 +40,16 @@
 
 ## DCL (Data Control Language)
 
+1. [GRANT](#)
+1. [REVOKE](#)
+
 ## DTL (Data Transaction Language)
+
+1. [BEGIN / SET TRANSATION](#)
+1. [COMMIT](#)
+1. [ROLLBACK](#)
+1. [SAVEPOINT](#)
 
 ## Exemplos
 
 1. [Lojas de Informática](https://github.com/rochaecp/sql-server/tree/master/estudos/exemplos/LojasInformatica)
-
-
