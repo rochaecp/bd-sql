@@ -1,56 +1,43 @@
 # SQL Server
 
-## Introdução
-
-1. [Sobre o SQL Server](estudos/about.md)
-1. [Operadores](estudos/operadores.md)
-1. [Tipos de Dados](estudos/tipos.md)
-1. [Funções prontas](estudos/funcoes-definidas.md)
-1. [Constantes pré-definidas](estudos/constantes-definidas.md)
-3. [Stored Procedures](estudos/stored-procedures.md)
-
-## DDL (Data Definition Language)
-
-1. [CREATE](estudos/create.md)
-1. [DROP](estudos/drop.md)
-1. ALTER
-1. TRUNCATE
-1. RENAME
-1. COMENTÁRIOS
-
-## DML (Data Manipulation Language)
-
-1. [INSERT](estudos/insert.md)
-1. [UPDATE](estudos/update.md)
-1. [DELETE](estudos/delete.md)
-2. CALL
-3. EXPLAIN CALL
-4. LOCK
-
-## DQL (Data Query Language)
-
-1. [SELECT](estudos/select.md)
-1. [WHERE](estudos/where.md)
-1. [ORDER BY](estudos/orderby.md)
-1. [GROUP BY](estudos/groupby.md)
-1. [HAVING](estudos/having.md)
-1. [OFFSET e FETCH](estudos/offsetFetch.md)
-1. [TOP](estudos/top.md)
-1. [DISTINCT](estudos/distinct.md)
-1. [INNER JOIN](estudos/innerjoin.md)
-
-## DCL (Data Control Language)
-
-1. GRANT
-1. REVOKE
-
-## DTL (Data Transaction Language)
-
-1. BEGIN / SET TRANSATION
-1. COMMIT
-1. ROLLBACK
-1. SAVEPOINT
-
-## Exemplos
-
-1. [Lojas de Informática](https://github.com/rochaecp/sql-server/tree/master/estudos/exemplos/LojasInformatica)
+- Introdução
+    - [Sobre o SQL Server](estudos/about.md)
+    - [Operadores](estudos/operadores.md)
+    - [Tipos de Dados](estudos/tipos.md)
+    - [Funções prontas](estudos/funcoes-definidas.md)
+    - [Constantes pré-definidas](estudos/constantes-definidas.md)
+    - [Stored Procedures](estudos/stored-procedures.md)
+- DDL (Data Definition Language)
+    - [CREATE](estudos/create.md)
+    - [DROP](estudos/drop.md)
+    - ALTER
+    - TRUNCATE
+    - RENAME
+    - COMENTÁRIOS
+- DML (Data Manipulation Language)
+    - [INSERT](estudos/insert.md)
+    - [UPDATE](estudos/update.md)
+    - [DELETE](estudos/delete.md)
+    - CALL
+    - EXPLAIN CALL
+    - LOCK
+- DQL (Data Query Language)
+    - [SELECT](estudos/select.md)
+    - [WHERE](estudos/where.md)
+    - [ORDER BY](estudos/orderby.md)
+    - [GROUP BY](estudos/groupby.md)
+    - [HAVING](estudos/having.md)
+    - [OFFSET e FETCH](estudos/offsetFetch.md)
+    - [TOP](estudos/top.md)
+    - [DISTINCT](estudos/distinct.md)
+    - [INNER JOIN](estudos/innerjoin.md)
+- DCL (Data Control Language)
+    - GRANT
+    - REVOKE
+- DTL (Data Transaction Language)
+    - BEGIN / SET TRANSATION
+    - COMMIT
+    - ROLLBACK
+    - SAVEPOINT
+- Exemplos
+    - [Lojas de Informática](https://github.com/rochaecp/sql-server/tree/master/estudos/exemplos/LojasInformatica)
