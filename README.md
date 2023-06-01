@@ -1,11 +1,7 @@
 # SQL Server
 
-- Introdução
-    - [Anotações](estudos/notes.md)
-    - [Operadores](estudos/operadores.md)
-    - [Tipos de Dados](estudos/tipos.md)
-    - [Funções prontas](estudos/funcoes-definidas.md)
-    - [Constantes pré-definidas](estudos/constantes-definidas.md)
+- Anotações
+    - [SQL Server](estudos/notes.md)
     - [Stored Procedures](estudos/stored-procedures.md)
 - DDL (Data Definition Language)
     - [CREATE](estudos/create.md)
