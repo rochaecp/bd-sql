@@ -1,7 +1,7 @@
 # SQL Server
 
 - Introdução
-    - [Sobre o SQL Server](estudos/about.md)
+    - [Anotações](estudos/notes.md)
     - [Operadores](estudos/operadores.md)
     - [Tipos de Dados](estudos/tipos.md)
     - [Funções prontas](estudos/funcoes-definidas.md)
