@@ -19,7 +19,6 @@
     - LOCK
 - DQL (Data Query Language)
     - [SELECT](estudos/select.md)
-    - [WHERE](estudos/where.md)
     - [ORDER BY](estudos/orderby.md)
     - [GROUP BY](estudos/groupby.md)
     - [HAVING](estudos/having.md)

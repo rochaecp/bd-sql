@@ -58,20 +58,25 @@
         UNKNOWN AND UNKNOWN -- UNKNOWN
         */    
         ~~~
+
     - OR
         ~~~sql
 
         ~~~
+
 - Operadores Relacionais
     - ```>```
     - ```=```
     - ```<>```
+
 - Operadores para NULL
     - ```IS NULL```     
     - ```IS NOT NULL``` 
+
 - Operadores para intervalos
     - ```BETWEEN```
     - ```IN```
+
 - Operadores para String
     - ```LIKE```
 
@@ -84,6 +89,7 @@
     | tinyint       | 1 byte    | 0 a 255                           |
     | smallint      | 2 bytes   | -32,768 a 32,767                  |
     | int           | 4 bytes   | -2,147,483,648 a 2,147,483,647    |
+
 - Numéricos: Decimais e ponto flutuante
     | Tipo          | Tamanho   | Intervalo                                                 |
     | :---:         | :---:     | :---:                                                     |
@@ -94,8 +100,11 @@
     | money         | xx bytes  |                                                           |
     | float(n)      | xx bytes  |                                                           |
     | real          | xx bytes  |                                                           |
+
 - String
+
 - Data
+
 - NULL
     - Indica a ausência de valor.  
     - Se em uma expressão lógica existir o valor NULL, o resultado será UNKNOWN.  
@@ -126,6 +135,7 @@
         WHERE
             nome_marca IS NOT NULL
         ~~~
+
 - Mais informações
     - https://www.rlsystem.com.br/tipos-dados-sql-server
 
@@ -143,6 +153,7 @@
     SELECT name
     FROM sys.databases
     ~~~
+    
 - Versão do SQL Server
     ~~~sql
     SELECT @@VERSION
