@@ -1,17 +1,15 @@
 # SQL Server - DROP
 
-## Deletar um Banco de Dados
+- Deletar um Banco de Dados
+    ~~~sql
+    USE master
+    
+    DROP DATABASE LojasInformatica
+    ~~~
 
-~~~sql
-USE master
- 
-DROP DATABASE LojasInformatica
-~~~
+- Deletar uma Tabela
+    ~~~sql
+    USE LojasInformatica
 
-## Deletar uma Tabela
-
-~~~sql
-USE LojasInformatica
-
-DROP TABLE producao.produtos
-~~~
+    DROP TABLE producao.produtos
+    ~~~

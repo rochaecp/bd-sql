@@ -2,7 +2,7 @@
 
 - Anotações
     - [SQL Server](estudos/notes.md)
-    - [Stored Procedures](estudos/stored-procedures.md)
+    - [Stored Procedures](estudos/notes-sp)
 - DDL (Data Definition Language)
     - [CREATE](estudos/create.md)
     - [DROP](estudos/drop.md)
@@ -19,13 +19,6 @@
     - LOCK
 - DQL (Data Query Language)
     - [SELECT](estudos/select.md)
-    - [ORDER BY](estudos/orderby.md)
-    - [GROUP BY](estudos/groupby.md)
-    - [HAVING](estudos/having.md)
-    - [OFFSET e FETCH](estudos/offsetFetch.md)
-    - [TOP](estudos/top.md)
-    - [DISTINCT](estudos/distinct.md)
-    - [INNER JOIN](estudos/innerjoin.md)
 - DCL (Data Control Language)
     - GRANT
     - REVOKE
