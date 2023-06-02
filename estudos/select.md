@@ -1,8 +1,9 @@
 # SQL Server - SELECT
 
-~~~sql
-SELECT 
-    *    -- evitar
-FROM 
-    producao.marcas
-~~~
+- Simples
+    ~~~sql
+    SELECT 
+        *    -- evitar
+    FROM 
+        producao.marcas
+    ~~~

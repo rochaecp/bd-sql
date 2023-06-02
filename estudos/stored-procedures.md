@@ -1,45 +1,36 @@
 # SQL Server - Stored Procedures
 
-## Criar uma SP
+- Criar uma SP
+    ~~~sql
 
-~~~sql
+    ~~~
 
-~~~
+- Executar uma SP
+    ~~~sql
 
-## Executar uma SP
+    ~~~
 
-~~~sql
+- Alterar uma SP
+    ~~~sql
 
-~~~
+    ~~~
 
-## Alterar uma SP
+- Deletar uma SP
+    ~~~sql
 
-~~~sql
+    ~~~
 
-~~~
+- Adicionar parâmetros a uma SP
+    -  Um parâmetro
+    ~~~sql
 
-## Deletar uma SP
+    ~~~
+    -  Multiplos parâmetros
+    ~~~sql
 
-~~~sql
+    ~~~
 
-~~~
+- Executar uma SP com um parâmetro
+    ~~~sql
 
-## Adicionar parâmetros a uma SP
-
-#### Um parâmetro
-
-~~~sql
-
-~~~
-
-#### Multiplos parâmetros
-
-~~~sql
-
-~~~
-
-## Executar uma SP com um parâmetro
-
-~~~sql
-
-~~~
+    ~~~
