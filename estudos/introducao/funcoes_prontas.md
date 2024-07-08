@@ -4,4 +4,11 @@
 
 ~~~sql
 SELECT DB_NAME()
+~~~
+
+
+## Datas
+
+~~~sql
+GETDATE()
 ~~~ 
