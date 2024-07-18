@@ -16,19 +16,19 @@
 
 #### Comandos SQL DML (Data Manipulation Language)
 
-- [INSERT](estudos/dml/insert.md)
-- [UPDATE](estudos/dml/update.md)
-- [DELETE](estudos/dml/delete.md)
+- [Insert](estudos/dml/insert.md)
+- [Update](estudos/dml/update.md)
+- [Delete](estudos/dml/delete.md)
 
 #### Comandos SQL DQL (Data Query Language)
 
-- [SELECT](estudos/dql/select_where.md)
-- [SELECT](estudos/dql/select_order_by.md)
-- [SELECT](estudos/dql/select_group_by.md)
-- [SELECT](estudos/dql/select_offset_fetch.md)
-- [SELECT](estudos/dql/select_top.md)
-- [SELECT](estudos/dql/select_distinct.md)
-- [SELECT](estudos/dql/select_inner_join.md)
+- [Select Where](estudos/dql/select_where.md)
+- [Select Order By](estudos/dql/select_order_by.md)
+- [Select Group By](estudos/dql/select_group_by.md)
+- [Select Offset Fetch](estudos/dql/select_offset_fetch.md)
+- [Select Top](estudos/dql/select_top.md)
+- [Select Distinct](estudos/dql/select_distinct.md)
+- [Select Inner Join](estudos/dql/select_inner_join.md)
 
 #### Stored Procedures
 
