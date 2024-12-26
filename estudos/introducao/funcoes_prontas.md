@@ -6,9 +6,14 @@
 SELECT DB_NAME()
 ~~~
 
-
 ## Datas
 
 ~~~sql
 GETDATE()
 ~~~ 
+
+## Strings
+
+~~~sql
+
+~~~
